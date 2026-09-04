@@ -320,6 +320,7 @@ pre {
   place-items: center;
   overflow: hidden;
   position: relative;
+  background-image: none;
 }
 .image-placeholder:after {
   content: "";
@@ -497,6 +498,44 @@ pre {
   border: 0;
   border-radius: 0;
   min-height: 240px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+.project-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.1));
+}
+
+.project-image > div {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.project-image span {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.project-image strong {
+  display: block;
+  font-size: 28px;
+  line-height: 1.15;
 }
 .project-content {
   padding: 27px;
