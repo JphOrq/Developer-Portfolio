@@ -36,178 +36,10 @@
           </p>
         </div>
       </section>
+
+      <!-- Data moved to a separate JS file (js/projects.js) -->
       <section class="section">
-        <div class="container project-grid">
-          <article class="project-card project-featured">
-            <div
-              class="project-image"
-              style="background-image: url(images/itis.png)"
-            >
-              <div>
-                <strong
-                  >Integrated Tuberculosis<br />
-                  Information System (ITIS)
-                </strong>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type">Information System</p>
-              <h2>TESDA-related project</h2>
-              <p>
-                ITIS is the official web-based and mobile system of the
-                Department of Health under the National Tuberculosis Control
-                Program (NTP), designed to digitally record, monitor, and manage
-                tuberculosis (TB) cases across public and private healthcare
-                facilities.
-              </p>
-              <div class="tags">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span
-                ><span>jQuery</span><span>PHP</span><span>CodeIgniter</span>
-                <span>MySQL/MariaDB</span><span>XAMPP</span>
-              </div>
-              <a
-                class="text-link"
-                href="https://itis.doh.gov.ph/"
-                target="_blank"
-                rel="noopener"
-                >View project →</a
-              >
-            </div>
-          </article>
-          <article class="project-card">
-            <div
-              class="project-image"
-              style="background-image: url(images/ntp.png)"
-            >
-              <div>
-                <strong> National Tuberculosis Control Program (NTP) </strong>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type">Information System</p>
-              <h2>TESDA-related project</h2>
-              <p>
-                NTP is the Department of Health's initiative aimed at reducing
-                and eliminating tuberculosis (TB) through nationwide programs,
-                policies, treatment services, and a centralized platform for TB
-                information, resources, and surveillance.
-              </p>
-              <div class="tags">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span
-                ><span>jQuery</span><span>PHP</span><span>WordPress</span>
-                <span>MySQL/MariaDB</span><span>XAMPP</span>
-              </div>
-              <a
-                class="text-link"
-                href="https://ntp.doh.gov.ph/"
-                target="_blank"
-                rel="noopener"
-                >View project →</a
-              >
-            </div>
-          </article>
-          <article class="project-card">
-            <div
-              class="project-image"
-              style="background-image: url(images/itis_lite.png)"
-            >
-              <div>
-                <strong> ITIS - Private TB Notification (ITIS Lite) </strong>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type">Information System</p>
-              <h2>TESDA-related project</h2>
-              <p>
-                ITIS Lite is a simplified online reporting platform under the
-                Integrated Tuberculosis Information System (ITIS) of the
-                Department of Health (DOH). It is designed specifically for
-                private healthcare providers to report tuberculosis (TB) cases.
-              </p>
-              <div class="tags">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span
-                ><span>jQuery</span><span>PHP</span><span>CodeIgniter</span>
-                <span>MySQL/MariaDB</span><span>XAMPP</span>
-              </div>
-              <a
-                class="text-link"
-                href="https://itis.doh.gov.ph/mandatorynotification/"
-                target="_blank"
-                rel="noopener"
-                >View project →</a
-              >
-            </div>
-          </article>
-          <article class="project-card">
-            <div
-              class="project-image"
-              style="background-image: url(images/spin-o-rama.png)"
-            >
-              <div>
-                <strong> Holiday Spin-O-Rama </strong>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type">Information System</p>
-              <h2>TESDA-related project</h2>
-              <p>
-                The "Holiday Spin-O-Rama" is a festive and engaging game that
-                brings joy and excitement to the holiday season. Players can
-                spin a colorful wheel adorned with various holiday-themed
-                prizes, from gift cards to holiday decorations. The game is
-                designed to be easy to play, making it suitable for all ages. It
-                can be enjoyed at holiday parties, family gatherings, or even
-                online, spreading cheer and creating memorable moments during
-                the holidays.
-              </p>
-              <div class="tags">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span>
-              </div>
-              <a
-                class="text-link"
-                href="https://jphorq.github.io/Holiday-Spin-O-Rama/"
-                target="_blank"
-                rel="noopener"
-                >View project →</a
-              >
-            </div>
-          </article>
-          <article class="project-card">
-            <div
-              class="project-image"
-              style="background-image: url(images/WonNow.jpg)"
-            >
-              <div>
-                <strong> Won-Now </strong>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type">Information System</p>
-              <h2>TESDA-related project</h2>
-              <p>
-                The "Wheel of Ninong-Ninang on Wheels" is a popular game in the
-                Philippines because it is a fun and easy way for "Ninong/Ninang
-                (godparents)" to give gifts to their "Inaanak (godchildren)". It
-                is also a good way for "Ninong/Ninang" to bond with their
-                "Inaanak" and create lasting memories. The game is played by
-                spinning a wheel that is divided into different sections, each
-                with a different prize. The player wins the prize that is in the
-                section where the wheel lands.
-              </p>
-              <div class="tags">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span
-                ><span>jQuery</span>
-              </div>
-              <a
-                class="text-link"
-                href="https://jphorq.github.io/WoN-NoW/"
-                target="_blank"
-                rel="noopener"
-                >View project →</a
-              >
-            </div>
-          </article>
-        </div>
+        <div class="container project-grid" id="projectGrid"></div>
       </section>
     </main>
     <footer class="site-footer">
@@ -216,6 +48,7 @@
         ><span>Built with HTML, CSS & JavaScript.</span>
       </div>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
