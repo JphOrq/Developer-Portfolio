@@ -117,7 +117,7 @@ a {
   align-items: center;
 }
 .eyebrow {
-  font-size: 0.72rem;
+  font-size: 1rem;
   letter-spacing: 0.16em;
   font-weight: 800;
   color: var(--accent-dark);
@@ -602,6 +602,11 @@ pre {
 }
 .case-image.large {
   min-height: 470px;
+}
+.case-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .case-facts {
   border-top: 1px solid var(--line);
