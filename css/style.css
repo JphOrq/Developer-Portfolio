@@ -605,7 +605,7 @@ pre {
 }
 .case-image {
   background-size: cover;
-  background-position: center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 .case-facts {
