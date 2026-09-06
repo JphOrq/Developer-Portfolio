@@ -102,14 +102,14 @@ const projects = [
   },
 
   {
-    title: "Won-Now",
+    title: "Library",
     type: "Information System",
     category: "Personal project",
     description:
-      "The Wheel of Ninong-Ninang on Wheels is a fun and easy way for Ninong and Ninang (godparents) to give gifts to their Inaanak (godchildren). The game is played by spinning a wheel divided into different sections, each with a different prize.",
-    image: "images/WonNow.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "jQuery"],
-    link: "https://jphorq.github.io/WoN-NoW/",
+      "This is a simple library app where you can add and delete books, change book status, see basic information, and library statistics. The website is a demo, and all data is stored in local storage. The library app is a good example of a simple web application that can be used to manage a small library collection. It is easy to use and navigate, and it provides all of the basic features needed to manage a library.",
+    image: "images/Library.jpg",
+    tags: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    link: "https://jphorq.github.io/Library/",
     linkText: "View project →",
   },
 ];
