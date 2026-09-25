@@ -1,6 +1,3 @@
-/* =========================================================
-   JOSEPH PORTFOLIO — EDIT THESE VARIABLES FIRST
-   ========================================================= */
 :root {
   --bg: #ffffff;
   --surface: #f5f8f7;
@@ -719,6 +716,22 @@ pre {
   justify-content: space-between;
   align-items: center;
 }
+
+footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+
+footer img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.4s ease-in-out;
+}
+
+footer a:hover img {
+  transform: scale(1.3) rotate(360deg);
+}
+
 @media (max-width: 900px) {
   .hero-grid,
   .spotlight,
