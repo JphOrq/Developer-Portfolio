@@ -778,6 +778,7 @@ footer a:hover img {
     font-size: 1.2rem;
   }
 }
+
 @media (max-width: 900px) {
   .hero-grid,
   .spotlight,
